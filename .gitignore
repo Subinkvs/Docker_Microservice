@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
+.docker-compose.yml
+/docker-compose.yml

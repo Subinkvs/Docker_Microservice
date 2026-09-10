@@ -14,7 +14,7 @@ function ProductPage() {
 
       try {
 
-        const response = await API.get("/api/products");
+        const response = await API.get("/products");
 
         setProducts(response.data);
 
